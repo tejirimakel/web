@@ -1,0 +1,11 @@
+{
+  "extends": ["edge"],
+  "rules": {
+    "inline-style": "off",          // Allows inline styles (if needed)
+    "meta-charset": "warn",         // Warns if <meta charset> is missing
+    "meta-viewport": "warn",        // Warns if <meta viewport> is missing
+    "no-redundant-id": "error",     // Ensures unique ID attributes
+    "no-vulnerable-forms": "warn",  // Warns about security vulnerabilities in forms
+    "aria-role": "warn"             // Ensures ARIA roles are used correctly
+  }
+}

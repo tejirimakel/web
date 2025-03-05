@@ -1,0 +1,10 @@
+#pnp
+#prettier
+#node_modules
+#dist
+#coverage
+#build
+#out
+#temp
+#hintrc
+#launch.json
