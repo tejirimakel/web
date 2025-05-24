@@ -1,0 +1,75 @@
+/*
+Add a grey (#B7B7B7) background, verticle padding of 10px and horizontal padding of 20 px to the entire page
+Add custom font "Ubuntu" to this web page
+
+Target "header" tag and set the font size to 1.5rem, background color of#F6F5F2, padding of 20px 
+and a 3px black (#243642) border with a border radius of 10px
+
+
+Target the "section" tag to add white (#FFFFFF) background, 10px padding, vertical margin of 20px
+and a white border of 2px width with 10px border radius.
+
+Target "code" tag to set font color to red.
+
+Target "code" tag with class of "inline" to set background color to "gainsboro" and add 1px vertical padding 
+and 5px horizontal padding.
+
+Target "comment" class to set font color to "grey"
+
+Target "code-example" class to a blue (#CAF4FF) background, 10px padding, set the width to "fit-content" and 
+border radius to 10px.
+
+Target "footer" tag to add a white (#FFFFFF) background, 5px padding, verticle margin of 20px, 
+white (#FFFFFF) border of 2px width with border radius of 10px, set font size to 0.8rem and 
+align the text to the center of the screen
+
+Target the "ul" inside "footer" tag to remove all padding and set the "list-style" to "none"
+ */
+body {
+    background-color: #B7B7B7;
+    padding: 10px 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+header {
+    font-size: 1.5rem;
+    background-color: #F6F5F2;
+    padding: 20px;
+    border: 3px solid #243642;
+    border-radius: 10px;
+}
+section {
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin: 20px 0;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+}
+code {
+    color: red;
+}
+code.inline {
+    background-color: gainsboro;
+    padding: 1px 5px;
+}
+.comment {
+    color: grey;
+}
+code-example {
+    background-color: #CAF4FF;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+}
+footer {
+    background-color: #FFFFFF;
+    padding: 5px;
+    margin: 20px 0;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+footer ul {
+    padding: 0;
+    list-style: none;
+}
